@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.2.17)  22 FEB 2020 17:24
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.2.17)  22 FEB 2020 17:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/obsidian/source/latex_test/1
-(/Users/obsidian/source/latex_test/1.tex
+**/Users/obsidian/source/latex_test/lesson1/1
+(/Users/obsidian/source/latex_test/lesson1/1.tex
 LaTeX2e <2018-12-01>
 (/usr/local/texlive/2019/texmf-dist/tex/latex/ctex/ctexart.cls (/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2019-05-07 L3 programming layer (loader) 
@@ -636,11 +636,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  16105 strings out of 492916
- 385624 string characters out of 6133345
+ 385648 string characters out of 6133345
  457371 words of memory out of 5000000
  20004 multiletter control sequences out of 15000+600000
  536576 words of font info for 97 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,7n,73p,388b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,7n,73p,396b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on 1.pdf (2 pages).
