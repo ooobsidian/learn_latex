@@ -1,0 +1,79 @@
+\documentclass{article}
+\usepackage{ctex}
+\usepackage{xltxtra} % 提供了针对XeTex的改进并加入了XeTex的LOGO
+\usepackage{mflogo}
+\usepackage{texnames}
+\begin{document}
+    \section{空白符号}
+    % 空行分段，多个空行等于一个
+    % 自动缩进，绝对不能使用空格代替
+    % 英文中多个空格处理成一个空格，中文中空格将被忽略
+    % 汉字与其他字符的间距会自动由XeLaTex处理
+    % 禁止使用中文全角空格
+    Are you wiser than others? definitely no. in some ways, may it is true. What can you achieve? a luxurious house? a brillilant car? an admirable career? who knows?
+
+    近年来，随着逆向工程和三维重建技术的发展和应用，获取现实物体的三维数据的方法越来越多的关注和研究，很多研究机构和商业公司都陆续推出了自己的三维重建系统。
+
+    % 1em
+    a \quad b
+
+    % 2em
+    a \qquad b
+
+    % 1/6em
+    a\,b 
+    
+    a\thinspace b
+
+    % 0.5em
+    a\enspace b
+
+    % 空格
+    a\ b
+
+    % 硬空格
+    a~b
+
+    % 1pc=12pt=4.218mm
+    a\kern 1pc b
+
+    a\kern -1em b
+
+    a\hskip 1em b
+
+    a\hspace{35pt}b
+
+    % 占位宽度
+    a\hphantom{xyz}b
+
+    axyzb
+
+    % 弹性
+    a\hfill b
+
+    \section{\LaTeX 控制符}
+    \# \$ \% \{ \} \~{} \_{} \^{} \textbackslash
+    \section{排版符号}
+    \S \P \dag \ddag \copyright \pounds
+    \section{\TeX 标志符号}
+    \TeX{} \LaTeX{} \LaTeXe{} 
+
+    % xltxtra
+    \XeLaTeX
+
+    % texnames
+    \AmSTeX{} \AmS-\LaTeX{}
+    \BibTeX{} \LuaTeX{}
+
+    % mflogo
+    \METAFONT{} \MF{} \MP{}
+
+    \section{引号}
+    ` ' `` '' ``你好''
+    \section{连字符}
+    - -- ---
+    \section{非英文字符}
+    \oe \OE \ae \AE \aa \AA \o \O \l \L \ss \SS !` ?`
+    \section{重音字符(以o为例)}
+    \`o \'o \^o \''o \~o \=o \.o \u{o} \v{o} \H{o} \r{o} \t{o} \b{o} \c{o} \d{o}
+\end{document}
