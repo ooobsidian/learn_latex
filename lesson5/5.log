@@ -510,10 +510,10 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ] [2] (./5.aux) ) 
 Here is how much of TeX's memory you used:
- 16230 strings out of 492916
- 381156 string characters out of 6133345
+ 16229 strings out of 492916
+ 381144 string characters out of 6133345
  457327 words of memory out of 5000000
- 20189 multiletter control sequences out of 15000+600000
+ 20188 multiletter control sequences out of 15000+600000
  533464 words of font info for 41 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,8n,73p,400b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
