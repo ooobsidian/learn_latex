@@ -1,0 +1,27 @@
+\documentclass{ctexart}
+\usepackage{ctex}
+% 导言区：\usepackage{graphicx}
+% 语法：\includegraphics[<选项>]{<文件名>}
+% 格式：EPS,PDF,PNG,JPEG,BMP
+\usepackage{graphicx}
+\graphicspath{{fig/}} % 图片的搜索路径
+
+
+\begin{document}
+    \LaTeX{}中的插图：
+
+    \includegraphics[scale=0.5]{vctk.png}
+
+    \includegraphics[height=2cm]{vctk.png}
+
+    \includegraphics[width=2cm]{vctk.png}
+
+    \includegraphics[height=0.1\textheight]{vctk.png}
+    
+    \includegraphics[height=0.1\textwidth]{vctk.png}
+
+    \includegraphics[angle=-45,height=0.1\textwidth]{vctk.png}
+
+    \includegraphics[angle=45,width=0.2\textwidth]{vctk.png}
+    
+\end{document}
