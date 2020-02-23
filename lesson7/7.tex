@@ -1,0 +1,166 @@
+\documentclass{ctexart}
+\usepackage{amsmath}
+\newcommand{\adots}{\mathinner{\mkern2mu\raisebox{0.1em}{.}\mkern2mu\raisebox{0.4em}{.}\mkern2mu\raisebox{0.7em}{.}\mkern1mu}}
+
+\begin{document}
+    \textbf{matrix 无括号}
+    \[
+   \begin{matrix}
+       0 & 1\\
+       1 & 0
+   \end{matrix} 
+   \]
+
+   \textbf{pmatrix 小括号}
+   \[
+   \begin{pmatrix}
+       0 & i\\
+       -i & 0
+   \end{pmatrix} 
+   \]
+
+   \textbf{bmatrix 中括号}
+   \[
+   \begin{bmatrix}
+       0 & 1\\
+       1 & 0
+   \end{bmatrix} 
+   \]
+
+   \textbf{Bmatrix 大括号}
+   \[
+   \begin{Bmatrix}
+       -1 & 1\\
+       1 & 1
+   \end{Bmatrix} 
+   \]
+
+   \textbf{vmatrix 单竖线}
+   \[
+    \begin{vmatrix}
+        a & b\\
+        c & d
+    \end{vmatrix} = ad-bc
+    \]
+
+    \textbf{Vmatrix 双竖线}
+   \[
+    \begin{Vmatrix}
+        a & b\\
+        c & d
+    \end{Vmatrix} 
+    \]
+
+
+    \textbf{使用上下标}
+    \[
+   A=\begin{pmatrix}
+       a_{11}^2 & a_{12}^2 & a_{13}^2\\
+       0 & a_{22} & a_{23}\\
+       0 & 0 & a_{33}
+   \end{pmatrix} 
+   \]
+
+   \textbf{常用省略号：\textbackslash dots, \textbackslash vdots, \textbackslash ddots}
+   \[
+   A=\begin{bmatrix}
+       a_{11} & \dots & a_{1n}\\
+       \vdots & \ddots & \vdots \\
+       0 & \dots & a_{nn}
+   \end{bmatrix}_{n \times n}
+   \]
+
+   \textbf{自定义符号：\textbackslash adots}
+   \[
+   A=\begin{bmatrix}
+       a_{11} & \dots & a_{1n}\\
+       \vdots & \adots & \vdots \\
+       0 & \dots & a_{nn}
+   \end{bmatrix}_{n \times n}
+   \]
+
+   \textbf{分块矩阵}
+   \[
+   \begin{pmatrix}
+       \begin{matrix}1&0\\0&1\end{matrix} & \text{\LARGE 0}\\
+        \text{\LARGE 0} & \begin{matrix}1&0\\0&1\end{matrix}
+   \end{pmatrix}
+   \]
+
+   \textbf{三角矩阵}
+   \[
+   \begin{pmatrix}
+    a_{11} & a_{12} & \dots & a_{1n}\\
+    & a_{22} &\cdots & a_{2n}\\
+    &        & \ddots & \vdots \\
+    \multicolumn{2}{c}{\raisebox{1.3ex}[0pt]{\Huge 0}}
+    & & a_{nn}
+   \end{pmatrix}_{n\times n}
+   \]
+
+   \textbf{跨列省略号：\textbackslash hdotsfor\{<列数>\}}
+   \[
+   \begin{pmatrix}
+    1 & \frac12 & \dots & \frac1n \\
+    \hdotsfor{4} \\
+    m & \frac m2 & \dots & \frac mn
+   \end{pmatrix}
+   \]
+
+   \textbf{使用smallmatrix环境产生行内小矩阵}
+
+   \ \ \ \ 复数 $z=(x,y)$也可用矩阵\begin{math}
+      \left(
+          \begin{smallmatrix}
+              x & -y\\
+              y & x
+          \end{smallmatrix}
+      \right) 
+   \end{math}来表示。
+
+   \textbf{array环境，类似于表格环tabular}
+   \[
+   \begin{array}{r|r}
+       \frac12 & 0 \\
+       \hline 
+       0 & -\frac{a}{bc}
+   \end{array}
+   \]
+
+   \textbf{用array环境构造复杂矩阵}
+%    @{<内容>}-添加任意内容，不占表项计数
+%    此处添加一个负值空白，表示向左移5pt的距离
+   \[
+   \begin{array}
+       {c@{\hspace{-5pt}}l}
+       % 第一行第一列
+       \left(
+       \begin{array}{ccc|ccc}
+           a & \cdots & a & b & \cdots & b \\
+           & \ddots & \vdots & \vdots & \adots \\
+           &        & a & b \\ \hline
+           &        &   & c & \cdots & c \\
+           &        &   & \vdots & & \vdots \\
+           \multicolumn{3}{c|}{\raisebox{2ex}[0pt]{\Huge 0}} & c & \cdots & c
+       \end{array}    
+       \right)
+       &
+       % 第一行第二列
+       \begin{array}{l}
+        %\left.仅表示与\right\}配对，什么都不输出
+        \left. \rule{0mm}{8mm}\right\}p\\
+        \\
+        \left. \rule{0mm}{8mm}\right\}q
+       \end{array}
+       \\[-5pt]
+       % 第二行第一列
+       \begin{array}{cc}
+           \underbrace{\rule{15mm}{0mm}}_m & 
+           \underbrace{\rule{15mm}{0mm}}_n
+       \end{array}
+       % 第二行第二列
+   \end{array}    
+   \]
+
+
+\end{document}
