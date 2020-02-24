@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.2.17)  22 FEB 2020 17:33
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.2.17)  24 FEB 2020 16:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -487,37 +487,15 @@ Package fontspec Info: Font family 'HeitiSC(0)' created for font 'Heiti SC'
 (fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 
 LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <18.06749> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <15.05624> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12.045> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 9.
-
-Package fontspec Warning: Font "Kaiti SC" does not contain requested Script
-(fontspec)                "CJK".
-
-
-Package fontspec Info: Could not resolve font "Kaiti SC/BI" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "Kaiti SC/B" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Could not resolve font "Kaiti SC/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: Font family 'KaitiSC(0)' created for font 'Kaiti SC'
-(fontspec)             with options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Kaiti SC/OT"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.53937> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -617,6 +595,32 @@ Package fontspec Info: Font family 'SongtiSC(1)' created for font 'Songti SC'
 (fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 
 
+Package fontspec Warning: Font "Kaiti SC" does not contain requested Script
+(fontspec)                "CJK".
+
+
+Package fontspec Info: Could not resolve font "Kaiti SC/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Kaiti SC/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "Kaiti SC/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: Font family 'KaitiSC(0)' created for font 'Kaiti SC'
+(fontspec)             with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"Kaiti SC/OT"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+
+
 Package fontspec Warning: Font "STFangsong" does not contain requested Script
 (fontspec)                "CJK".
 
@@ -635,12 +639,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 16105 strings out of 492916
- 385648 string characters out of 6133345
+ 16111 strings out of 492916
+ 385749 string characters out of 6133345
  457371 words of memory out of 5000000
- 20004 multiletter control sequences out of 15000+600000
- 536576 words of font info for 97 fonts, out of 8000000 for 9000
+ 20010 multiletter control sequences out of 15000+600000
+ 538395 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,7n,73p,396b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,6n,73p,396b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on 1.pdf (2 pages).
