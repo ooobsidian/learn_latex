@@ -2,7 +2,7 @@
 - 十节课基本掌握LaTeX的使用方法
 - 写论文必备
 ### 准备
-- LaTex环境
+- LaTeX环境
 - MarkDown的基本使用方法
 ### 传送门
 - [lesson1 中文字体字号设置](https://github.com/ooobsidian/learn_latex/blob/master/lesson1/1.tex)
